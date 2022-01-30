@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/caption10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caption10"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <CheckBox
+            android:id="@+id/c10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/q10_1" />
+
+        <CheckBox
+            android:id="@+id/c10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/q10_2" />
+
+        <CheckBox
+            android:id="@+id/c10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/q10_3" />
+
+        <CheckBox
+            android:id="@+id/c10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/q10_4" />
+
+        <Button
+            android:id="@+id/next10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:text="@string/next10" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
